@@ -43,11 +43,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-if (app.Environment.IsDevelopment())
-{
-    app.MapGet("/", () => Results.Redirect("/swagger")).ExcludeFromDescription();
-}
+app.MapGet("/", () => Results.Redirect("/swagger")).ExcludeFromDescription();
 
 var summaries = new[]
 {
