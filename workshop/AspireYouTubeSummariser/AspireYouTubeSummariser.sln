@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireYouTubeSummariser.AppHost", "AspireYouTubeSummariser.AppHost\AspireYouTubeSummariser.AppHost.csproj", "{F103ACDE-FFF0-4FD1-8FCE-8C4943A8A9E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspireYouTubeSummariser.ServiceDefaults", "AspireYouTubeSummariser.ServiceDefaults\AspireYouTubeSummariser.ServiceDefaults.csproj", "{FF6E67D1-9A0E-4091-B941-F49F1A66ACB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F103ACDE-FFF0-4FD1-8FCE-8C4943A8A9E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F103ACDE-FFF0-4FD1-8FCE-8C4943A8A9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F103ACDE-FFF0-4FD1-8FCE-8C4943A8A9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F103ACDE-FFF0-4FD1-8FCE-8C4943A8A9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6E67D1-9A0E-4091-B941-F49F1A66ACB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6E67D1-9A0E-4091-B941-F49F1A66ACB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6E67D1-9A0E-4091-B941-F49F1A66ACB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6E67D1-9A0E-4091-B941-F49F1A66ACB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54D41DE1-0782-4F15-BE91-2D98AB168F4B}
+	EndGlobalSection
+EndGlobal
